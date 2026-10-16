@@ -1,0 +1,25 @@
+# Budapest Public Transport Delay Monitor - backend dependencies (all free)
+
+# Web API
+fastapi>=0.110
+uvicorn[standard]>=0.29
+
+# Data processing
+pandas>=2.0
+
+# Machine learning
+scikit-learn>=1.3
+joblib>=1.3
+
+# HTTP client for GTFS-RT and Open-Meteo
+httpx>=0.27
+
+# GTFS-Realtime protobuf parsing
+gtfs-realtime-bindings>=1.0.0
+protobuf>=4.21
+
+# Environment file support
+python-dotenv>=1.0
+
+# Testing
+pytest>=8.0

@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local environment (contains secrets like BKK_API_KEY)
+.env
+.env.*
+!.env.example
+
+# DS store
+.DS_Store
